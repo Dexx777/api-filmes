@@ -1,0 +1,3 @@
+npx sequelize-cli model:generate --name [nome da entidade] --attributes [nome do atributo]:[tipo de dados]
+
+npx sequelize-cli model:generate --name Filmes --attributes idFilmes:INTEGER,titulo:STRING,descricao:STRING,idGenero:INTEGER,ano:INTEGER,duracao:TIME,imagem:STRING,trailer:STRING,idDoDiretor:INTEGER,idDoElenco:INTEGER
